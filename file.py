@@ -8,7 +8,6 @@ class Look:
         data = list()
         
         while True:
-            cls()
             while True:
                 input("<ENTER>"); cls()
                 print(f"Data: {data}")
@@ -28,10 +27,3 @@ class Look:
                 else: break
         
 Look.get_input()
-"""
-data = list()
-
-data = input("saparate: ")
-
-data_split = data.split()
-print(data_split)"""
