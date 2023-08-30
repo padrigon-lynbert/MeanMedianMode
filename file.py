@@ -6,7 +6,7 @@ class Look:
     def get_input():
         cls()
         data = list()
-        
+     
         while True:
             while True:
                 input("<ENTER>"); cls()
@@ -25,5 +25,7 @@ class Look:
                         data.pop()
                     except IndexError: print("Catched no value to delete.")
                 else: break
+
+        return data
         
-Look.get_input() #nothing just not to break my steak.
+Look.get_input()
