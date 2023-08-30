@@ -3,7 +3,11 @@ import os
 def cls(): os.system('cls')
 
 class Look:
-    def get_input():
+     def for_mean(data): pass
+     def for_median(data): pass
+     def for_mode(data): pass
+
+def get_input():
         cls()
         data = list()
      
@@ -28,4 +32,5 @@ class Look:
 
         return data
         
+    
 Look.get_input()
