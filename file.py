@@ -3,7 +3,10 @@ import os
 def cls(): os.system('cls')
 
 class Look:
-     def for_mean(data): pass
+     def for_mean(data): 
+          missing_mean = (sum(data)/len(data))
+
+          return missing_mean
      def for_median(data): pass
      def for_mode(data): pass
 
