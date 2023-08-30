@@ -26,4 +26,4 @@ class Look:
                     except IndexError: print("Catched no value to delete.")
                 else: break
         
-Look.get_input()
+Look.get_input() #nothing just not to break my steak.
