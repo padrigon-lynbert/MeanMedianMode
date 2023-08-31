@@ -2,13 +2,15 @@ import os
 
 def cls(): os.system('cls')
 
-class Look:
-     def for_mean(data): 
-        missing_mean = (sum(data)/len(data))
+class Seek:
+    def for_mean(lst): 
+        missing_mean = (sum(lst)/len(lst))
 
         return missing_mean
+        
+    # mean = lambda lst : (sum(lst)/len(lst))
      
-     def for_median(data):
+    def median(data):
         # ( data[len(data)/2] + data[ ( (len(data)/2) +1) ] /2 )
 
         if (len(data) % 2 == 0): missing_median = (data[int(len(data)/2)] + data[int( (len(data)+1) /2) ]) / 2 #even
@@ -16,7 +18,7 @@ class Look:
           
         return missing_median
 
-     def for_mode(data): pass
+    def mode(data): pass
 
 def get_input():
         cls()
@@ -42,10 +44,13 @@ def get_input():
                 else: break
 
         return data
+data = [1,1,3,4,6,6,8,9]
+print(Seek.mean(data))
+# Look.
 #uncomment to test mean
 """
 data = [1,1,3,4,6,6,8,9]
-print(Look.for_mean(data))
+print(Seek.mean(data))
 """
 
 #uncomment to test median        
@@ -56,5 +61,5 @@ even_data = sorted([1,1,3,4,6,6,8,9,10,11])
 
 # print(type(even_data))
 
-print(Look.for_median(even_data))
+print(Seek.median(even_data))
 """
