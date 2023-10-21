@@ -13,4 +13,4 @@ data = [3,2,1,5,4]
 
 c = for_median(data)
 print(c)
-# 
+# wrong output.
