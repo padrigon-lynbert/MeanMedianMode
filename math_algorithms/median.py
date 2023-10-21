@@ -1,4 +1,4 @@
-def for_median(given_list):
+def median(given_list):
 
     given_list.sort()
 
