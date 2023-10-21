@@ -1,4 +1,4 @@
-get_input = input(": ")
-data = get_input.split()
-
-print(sum(map(int, data)))
+def mean(given_list):
+    result = sum(map(int,given_list))/len(given_list)
+    
+    return round(result, 4)
