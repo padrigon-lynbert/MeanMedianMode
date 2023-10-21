@@ -4,6 +4,7 @@ from math_algorithms.mode import mode
 
 from icecream import ic
 
+print("SEPARATE INDIVIDUAL DATA USING SPACES")
 get_input = input(": ").split()
 data = list(map(int, get_input))
 
