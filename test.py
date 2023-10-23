@@ -6,6 +6,6 @@ from icecream import ic
 
 print("SEPARATE INDIVIDUAL DATA USING SPACES")
 get_input = input(": ").split()
-data = list(map(int, get_input))
+data = list(map(float, get_input))
 
 print(f"Mean: {mean(data)} \nMedian: {median(data)} \nMode: {mode(data)}")
